@@ -60,4 +60,8 @@ const loadData = async () => {
     }
 }
 
+document.getElementById('addButton').addEventListener('click', function() {
+    window.location.href = 'add.html';
+});
+
 loadData()

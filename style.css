@@ -44,3 +44,17 @@
     background: white;
     border: 1.5px solid lightgrey;
 }
+
+#addButton {
+    display: block;
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin: 5px;
+    background: lightblue;
+    border: 2px solid blue;
+    color: blue;
+    font-size: 2em;
+    cursor: pointer;
+}
