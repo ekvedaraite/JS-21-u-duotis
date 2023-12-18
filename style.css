@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    cursor: default;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: calc(25% - 10px);
+    min-height: 200px;
+    margin: 5px;
+    border: 1px solid lightgrey;
+}
+
+.product img {
+    width: 100%;
+    min-height: 115px;
+}
+
+.product p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 0.8em;
+}
+
+.product h1 {
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+}
+
+.product button {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: white;
+    border: 1.5px solid lightgrey;
+}
